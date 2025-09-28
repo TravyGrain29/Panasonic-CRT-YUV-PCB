@@ -1,5 +1,5 @@
 # Panasonic-CRT-YUV-PCB
-Disclaimer: I'm not a professional, this was a side project I completed for fun. Feel free to make any adjustments or improvements.
+Disclaimer: I'm not a professional, this was a side project I completed for fun. Feel free to make any adjustments or improvements. This is still a work in progress.
 
 CRT Model: Panasonic TC-21PM50A
 
