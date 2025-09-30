@@ -7,8 +7,8 @@ Chassis: GP3
 
 UOC IC/Jungle: TDA9590N48AX
 
-<img width="650" height="653.4" alt="PCB Design" src="https://github.com/user-attachments/assets/517801aa-3717-4e3a-b4af-448c3adf36c7" />
-<img width="650" height="866.7" alt="PCB Soldered" src="https://github.com/user-attachments/assets/bff6f42a-19ff-4bba-8b8a-e865d421df01" />
+<img width="300" height="301.6" alt="PCB Design" src="https://github.com/user-attachments/assets/517801aa-3717-4e3a-b4af-448c3adf36c7" />
+<img width="300" height="400" alt="PCB Soldered" src="https://github.com/user-attachments/assets/bff6f42a-19ff-4bba-8b8a-e865d421df01" />
 
 This is a PCB I designed to allow my Panasonic Tau CRT to accept component (YPbPr) input.
 
