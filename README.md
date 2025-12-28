@@ -1,6 +1,6 @@
 # Panasonic-CRT-YUV-PCB
 ## DISCLAIMER
-I'm not a professional, this was a side project I completed for fun. I am not responsible for any damage or harm you may inflict upon yourself or your devices. Working on CRTs is very dangerous and should only be done by individuals with the required knowledge and experience. Do not attempt this project if you are a novice with electronics or CRTs.
+I'm not a professional, this was a side project I completed for fun. I cannot guarantee compatibility with your model CRT. I am not responsible for any damage or harm you may inflict upon yourself or your devices. Working on CRTs is very dangerous and should only be done by individuals with the required knowledge and experience. Do not attempt this project if you are a novice with electronics or CRTs.
 
 ## Overview
 
@@ -18,11 +18,6 @@ This is a PCB I designed, based off exisiting Panasonic schematics, that allows 
 Panasonic CRTs that utilise the GP3 chassis but lack component input, still have the basic foundations present that allow us to provide our own component input. This is due to Panasonic reusing the same chassis and processors between higher end and lower end models. All that was required for this mod was to unlock component input as an AV option via the service menu and then installing the missing hardware and connections.
 
 ## How To
-
-Originally the TV was only capable of accepting composite and RF inputs but upon inspecting the service manual, I discovered the IC had pins dedicated to RGB and YUV inputs.
-After some tinkering in the service menu I was able to unlock component as an option in the AV input selector. I achieved this by changing the values of Option 5 from 00 to 01.
-I then hooked up some RCA jacks to the YUV pads on the IC but found the colours wouldn't display properly. After some more research I found out the IC requires a seperate YUV circuit board to convert the YPbPr signals to Y -B-Y -R-Y.
-I managed to find a schematic and part list for the circuit in the service manual of a different model CRT that shared the same chassis and IC as mine but also had component input.
-I copied the schematic in Kicad with some minor changes and designed a PCB. I then searched for the parts I needed on Mouser, I opted to find superior modern alternatives rather than the original parts when creating my part list.
-Then I put the YUV PCb together and connected shielded wires to the YUV pads and ground on the chassis.
-After installation, the TV now properly displays component video.
+### Step 1:
+First you need to determine if your CRT is compatible with this mod. It needs to be a Panasonic CRT that uses the GP3 chassis. You can check your TV model by inspecting the back of the unit for a sticker with the model number and chassis type. If you find the model number but not the chassis type, search for your model number online and inspect any available service manuals or spec sheets. While inspecting the rear of the TV, take note of what inputs are available. If you already have component input then this mod is unnecessary for you. If your TV has SCART inputs, it may be incompatible with this mod and potentially unnecessary. SCART inputs most likely mean the TV has RGB support and if that is the case the IC most likely has different programming which prevents the ability to unlock component input via the service menu. RGB is also a very high quality input which should be used instead of this mod if it is offered natively. The perfect candidate of this mod is a Panasonic TV that uses the GP3 chassis and lacks native component or RGB inputs.
+### Step 2:
