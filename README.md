@@ -1,17 +1,17 @@
 # Panasonic-CRT-YUV-PCB
 *DISCLAIMER: I'm not a professional, this was a side project I completed for fun.
 
-# CRT Specs
+## CRT Specs
 Model: Panasonic Tau TC-21PM50A
 
 Chassis: GP3
 
 UOC IC/Jungle: TDA9590N48AX
 
-# What is this?
+## What is this?
 This is a PCB I designed, based off exisiting Panasonic schematics, that allows Panasonic Tau CRTs using the GP3 chassis to accept component (YPbPr) video input. This is intended for use with GP3 CRTs that lack native component or RGB inputs.
 
-# How does it work?
+## How does it work?
 The board converts incoming YPbPr signals from an external device into sigals that the video processor can understand and display properly. Without this PCB, the video will not display correctly and will appear distorted.
 
 Originally the TV was only capable of accepting composite and RF inputs but upon inspecting the service manual, I discovered the IC had pins dedicated to RGB and YUV inputs.
