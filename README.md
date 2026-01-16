@@ -17,13 +17,5 @@ This is a PCB I designed, based off exisiting Panasonic schematics, that allows 
 ### How does it work?
 Panasonic CRTs that utilise the GP3 chassis but lack component input, still have the basic foundations present that allow us to provide our own component input. This is due to Panasonic reusing the same chassis and processors between higher end and lower end models. All that was required for this mod was to unlock component input as an AV option via the service menu and then installing the missing hardware and connections. This board replaces the missing YUV circuit board that came with component enabled models, allowing us to build the YUV input path ourselves.
 
-## How To
-### Step 1: Determine Compatibility
-First you need to determine if your CRT is compatible with this mod. It needs to be a Panasonic CRT that uses the GP3 chassis. You can check your TV model by inspecting the back of the unit for a sticker with the model number and chassis type. If you find the model number but not the chassis type, search for your model number online and inspect any available service manuals or spec sheets. While inspecting the rear of the TV, take note of what inputs are available. If you already have component input then this mod is unnecessary for you. If your TV has SCART inputs, it may be incompatible with this mod and potentially unnecessary. SCART inputs most likely mean the TV has RGB support and if that is the case the IC most likely has different programming which prevents the ability to unlock component input via the service menu. RGB is also a very high quality input which should be used instead of this mod if it is offered natively. The perfect candidate of this mod is a Panasonic TV that uses the GP3 chassis and lacks native component or RGB inputs.
-### Step 2: Unlock Component Input
-For this step, we need to unlock component as an option for the AV selector. We can achieve this by changing a singular value in the service menu.
-To enter the service menu do the following:
-- Power on your TV.
-- Turn the volume down to 0.
-- Set the off timer to 30 minutes.
-- 
+### How can I build this?
+A written guide will be provided in PDF format with instructions on how to perform the modification.
